@@ -1,0 +1,83 @@
+Quartus II
+Version 11.0 Build 208 07/03/2011 Service Pack 1 SJ Web Edition
+40
+4675
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+7seg
+# storage
+db|7seg.(0).cnf
+db|7seg.(0).cnf
+# case_insensitive
+# source_file
+7seg.bdf
+187f511b35bdabd4f1534349b08b9ba
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+dlight
+# storage
+db|7seg.(2).cnf
+db|7seg.(2).cnf
+# case_insensitive
+# source_file
+|temp|trafficlight|19|dlight|dlight.bdf
+5a8a5620fdfe88cc6c52d52935e7e069
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+dlight:inst10
+}
+# macro_sequence
+
+# end
+# entity
+clight
+# storage
+db|7seg.(1).cnf
+db|7seg.(1).cnf
+# case_insensitive
+# source_file
+|temp|trafficlight|19|clight|clight.bdf
+59bdc774e6c9f31de96d01a1cb42f8b
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+clight:inst2
+}
+# macro_sequence
+
+# end
+# complete
+

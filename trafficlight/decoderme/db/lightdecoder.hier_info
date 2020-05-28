@@ -1,0 +1,17 @@
+|lightdecoder
+C => inst5.IN0
+C => inst3.IN0
+C => inst7.IN2
+C => inst4.IN1
+C => inst18.IN0
+B => inst5.IN1
+B => inst2.IN0
+B => inst7.IN0
+B => inst19.IN0
+B => inst4.IN0
+A => inst6.IN1
+A => inst7.IN1
+A => inst.IN0
+A => inst1.IN1
+
+

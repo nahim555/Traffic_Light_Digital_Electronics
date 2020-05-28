@@ -1,0 +1,183 @@
+Quartus II
+Version 11.0 Build 208 07/03/2011 Service Pack 1 SJ Web Edition
+49
+4341
+OFF
+OFF
+OFF
+ON
+ON
+OFF
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+timer
+# storage
+db|trafficlight.(3).cnf
+db|trafficlight.(3).cnf
+# case_insensitive
+# source_file
+timer|timer.bdf
+ee186049bc1890b2e6d3da5a59984c0
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+timer:inst3
+}
+# macro_sequence
+
+# end
+# entity
+Modulo6
+# storage
+db|trafficlight.(4).cnf
+db|trafficlight.(4).cnf
+# case_insensitive
+# source_file
+modulo-6|modulo6.bdf
+43d5788d21abbaed28ece7577b103982
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Modulo6:inst
+}
+# macro_sequence
+
+# end
+# entity
+dlight
+# storage
+db|trafficlight.(7).cnf
+db|trafficlight.(7).cnf
+# case_insensitive
+# source_file
+19|dlight|dlight.bdf
+5a8a5620fdfe88cc6c52d52935e7e069
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+7seg:inst4|dlight:inst10
+}
+# macro_sequence
+
+# end
+# entity
+7seg
+# storage
+db|trafficlight.(5).cnf
+db|trafficlight.(5).cnf
+# case_insensitive
+# source_file
+7seg|7seg.bdf
+187f511b35bdabd4f1534349b08b9ba
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+7seg:inst4
+}
+# macro_sequence
+
+# end
+# entity
+clight
+# storage
+db|trafficlight.(6).cnf
+db|trafficlight.(6).cnf
+# case_insensitive
+# source_file
+19|clight|clight.bdf
+59bdc774e6c9f31de96d01a1cb42f8b
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+7seg:inst4|clight:inst2
+}
+# macro_sequence
+
+# end
+# entity
+lightdecoder
+# storage
+db|trafficlight.(1).cnf
+db|trafficlight.(1).cnf
+# case_insensitive
+# source_file
+decoderme|lightdecoder.bdf
+5c1df242a35a24aca68f059468c14ed
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+lightdecoder:inst2
+}
+# macro_sequence
+
+# end
+# entity
+trafficlight
+# storage
+db|trafficlight.(0).cnf
+db|trafficlight.(0).cnf
+# case_insensitive
+# source_file
+trafficlight.bdf
+c8baae597103417863064aa229da4
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+lightcontroller
+# storage
+db|trafficlight.(2).cnf
+db|trafficlight.(2).cnf
+# case_insensitive
+# source_file
+lightcontrollerme|lightcontroller.bdf
+348e1fc3d5e57970c7e42b9b4c7bfb5c
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+lightcontroller:inst1
+}
+# macro_sequence
+
+# end
+# complete
+

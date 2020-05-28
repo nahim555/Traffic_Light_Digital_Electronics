@@ -1,0 +1,13 @@
+|dlight
+D4 => inst17.IN0
+D4 => inst20.IN1
+C3 => inst16.IN0
+C3 => XORGate.IN0
+C3 => inst21.IN0
+A1 => inst14.IN0
+A1 => XORGate.IN1
+A1 => inst21.IN2
+B2 => inst15.IN0
+B2 => inst18.IN0
+
+

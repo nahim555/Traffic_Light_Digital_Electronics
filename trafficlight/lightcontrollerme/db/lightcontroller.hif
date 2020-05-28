@@ -1,0 +1,43 @@
+Quartus II
+Version 11.0 Build 208 07/03/2011 Service Pack 1 SJ Web Edition
+40
+4675
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+lightcontroller
+# storage
+db|lightcontroller.(0).cnf
+db|lightcontroller.(0).cnf
+# case_insensitive
+# source_file
+lightcontroller.bdf
+348e1fc3d5e57970c7e42b9b4c7bfb5c
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# complete
+

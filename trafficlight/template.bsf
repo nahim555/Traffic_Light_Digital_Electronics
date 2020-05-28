@@ -1,0 +1,148 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2011 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 16 16 176 304)
+	(text "trafficlight" (rect 5 0 61 14)(font "Arial" (font_size 8)))
+	(text "inst" (rect 8 272 25 284)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "CLK" (rect 0 0 23 14)(font "Arial" (font_size 8)))
+		(text "CLK" (rect 21 27 44 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "Reset" (rect 0 0 33 14)(font "Arial" (font_size 8)))
+		(text "Reset" (rect 21 43 54 57)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "S_Side" (rect 0 0 40 14)(font "Arial" (font_size 8)))
+		(text "S_Side" (rect 21 59 61 73)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 160 32)
+		(output)
+		(text "DP_light" (rect 0 0 44 14)(font "Arial" (font_size 8)))
+		(text "DP_light" (rect 95 27 139 41)(font "Arial" (font_size 8)))
+		(line (pt 160 32)(pt 144 32))
+	)
+	(port
+		(pt 160 48)
+		(output)
+		(text "G_light" (rect 0 0 38 14)(font "Arial" (font_size 8)))
+		(text "G_light" (rect 101 43 139 57)(font "Arial" (font_size 8)))
+		(line (pt 160 48)(pt 144 48))
+	)
+	(port
+		(pt 160 64)
+		(output)
+		(text "F_light" (rect 0 0 36 14)(font "Arial" (font_size 8)))
+		(text "F_light" (rect 103 59 139 73)(font "Arial" (font_size 8)))
+		(line (pt 160 64)(pt 144 64))
+	)
+	(port
+		(pt 160 80)
+		(output)
+		(text "E_light" (rect 0 0 36 14)(font "Arial" (font_size 8)))
+		(text "E_light" (rect 103 75 139 89)(font "Arial" (font_size 8)))
+		(line (pt 160 80)(pt 144 80))
+	)
+	(port
+		(pt 160 96)
+		(output)
+		(text "main_red" (rect 0 0 51 14)(font "Arial" (font_size 8)))
+		(text "main_red" (rect 88 91 139 105)(font "Arial" (font_size 8)))
+		(line (pt 160 96)(pt 144 96))
+	)
+	(port
+		(pt 160 112)
+		(output)
+		(text "B_light" (rect 0 0 37 14)(font "Arial" (font_size 8)))
+		(text "B_light" (rect 102 107 139 121)(font "Arial" (font_size 8)))
+		(line (pt 160 112)(pt 144 112))
+	)
+	(port
+		(pt 160 128)
+		(output)
+		(text "main_green" (rect 0 0 66 14)(font "Arial" (font_size 8)))
+		(text "main_green" (rect 73 123 139 137)(font "Arial" (font_size 8)))
+		(line (pt 160 128)(pt 144 128))
+	)
+	(port
+		(pt 160 144)
+		(output)
+		(text "A_light" (rect 0 0 38 14)(font "Arial" (font_size 8)))
+		(text "A_light" (rect 101 139 139 153)(font "Arial" (font_size 8)))
+		(line (pt 160 144)(pt 144 144))
+	)
+	(port
+		(pt 160 160)
+		(output)
+		(text "side_red" (rect 0 0 49 14)(font "Arial" (font_size 8)))
+		(text "side_red" (rect 90 155 139 169)(font "Arial" (font_size 8)))
+		(line (pt 160 160)(pt 144 160))
+	)
+	(port
+		(pt 160 176)
+		(output)
+		(text "C_light" (rect 0 0 37 14)(font "Arial" (font_size 8)))
+		(text "C_light" (rect 102 171 139 185)(font "Arial" (font_size 8)))
+		(line (pt 160 176)(pt 144 176))
+	)
+	(port
+		(pt 160 192)
+		(output)
+		(text "side_amber" (rect 0 0 66 14)(font "Arial" (font_size 8)))
+		(text "side_amber" (rect 73 187 139 201)(font "Arial" (font_size 8)))
+		(line (pt 160 192)(pt 144 192))
+	)
+	(port
+		(pt 160 208)
+		(output)
+		(text "D_light" (rect 0 0 37 14)(font "Arial" (font_size 8)))
+		(text "D_light" (rect 102 203 139 217)(font "Arial" (font_size 8)))
+		(line (pt 160 208)(pt 144 208))
+	)
+	(port
+		(pt 160 224)
+		(output)
+		(text "side_green" (rect 0 0 63 14)(font "Arial" (font_size 8)))
+		(text "side_green" (rect 76 219 139 233)(font "Arial" (font_size 8)))
+		(line (pt 160 224)(pt 144 224))
+	)
+	(port
+		(pt 160 240)
+		(output)
+		(text "main_amber" (rect 0 0 68 14)(font "Arial" (font_size 8)))
+		(text "main_amber" (rect 71 235 139 249)(font "Arial" (font_size 8)))
+		(line (pt 160 240)(pt 144 240))
+	)
+	(drawing
+		(rectangle (rect 16 16 144 272))
+	)
+)

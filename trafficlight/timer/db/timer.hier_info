@@ -1,0 +1,11 @@
+|timer
+T12 => inst.IN0
+T6 => inst2.IN0
+T6 => inst4.IN1
+T6 => inst3.IN1
+E => inst5.ACLR
+E => inst1.ACLR
+CLK => inst5.CLK
+CLK => inst1.CLK
+
+

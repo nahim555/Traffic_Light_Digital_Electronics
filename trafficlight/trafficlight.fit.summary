@@ -1,0 +1,11 @@
+Fitter Status : Successful - Wed Nov 08 16:19:34 2017
+Quartus II Version : 11.0 Build 208 07/03/2011 SP 1 SJ Web Edition
+Revision Name : trafficlight
+Top-level Entity Name : trafficlight
+Family : MAX II
+Device : EPM240T100C5
+Timing Models : Final
+Total logic elements : 26 / 240 ( 11 % )
+Total pins : 17 / 80 ( 21 % )
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )

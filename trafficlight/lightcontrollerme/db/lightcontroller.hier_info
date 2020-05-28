@@ -1,0 +1,12 @@
+|lightcontroller
+E => inst8.ACLR
+E => inst7.ACLR
+E => inst.ACLR
+CLK => inst8.CLK
+CLK => inst7.CLK
+CLK => inst.CLK
+done => inst22.IN0
+done => inst6.IN3
+car => inst6.IN2
+
+

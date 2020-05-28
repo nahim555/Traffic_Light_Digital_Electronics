@@ -1,0 +1,71 @@
+|7seg
+B => inst15.IN0
+B => inst14.IN0
+B => inst4.IN0
+B => inst16.IN1
+B => inst37.IN0
+B => inst36.IN1
+B => inst42.IN0
+B => inst41.IN1
+B => inst50.IN0
+B => inst49.IN1
+B => inst38.IN1
+B => clight:inst2.B
+B => dlight:inst10.B2
+D => inst.IN0
+D => inst12.IN1
+D => inst13.IN2
+D => inst17.IN2
+D => inst37.IN1
+D => inst35.IN1
+D => inst44.IN1
+D => inst42.IN1
+D => inst48.IN1
+D => inst47.IN1
+D => inst8.IN3
+D => clight:inst2.D
+D => dlight:inst10.D4
+A => inst5.IN0
+A => inst7.IN0
+A => inst17.IN0
+A => inst16.IN0
+A => inst47.IN0
+A => inst8.IN0
+A => clight:inst2.A
+A => dlight:inst10.A1
+C => inst14.IN1
+C => inst3.IN0
+C => inst7.IN1
+C => inst35.IN0
+C => inst41.IN2
+C => inst40.IN1
+C => inst46.IN1
+C => inst38.IN2
+C => clight:inst2.C
+C => dlight:inst10.C3
+
+
+|7seg|clight:inst2
+D => inst2.IN0
+D => inst.IN0
+C => inst5.IN0
+C => inst.IN1
+B => inst9.IN2
+B => inst4.IN0
+A => inst9.IN3
+A => inst7.IN1
+
+
+|7seg|dlight:inst10
+D4 => inst17.IN0
+D4 => inst20.IN1
+C3 => inst16.IN0
+C3 => XORGate.IN0
+C3 => inst21.IN0
+A1 => inst14.IN0
+A1 => XORGate.IN1
+A1 => inst21.IN2
+B2 => inst15.IN0
+B2 => inst18.IN0
+
+
